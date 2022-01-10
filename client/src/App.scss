@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.not_found{
+    letter-spacing: 1px;
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .App{
+        display: inline;
+    }
+  }

@@ -1,0 +1,12 @@
+
+
+// TASK ACTIONS
+export const DELETE_TASK="DELETE_TASK";
+export const EDIT_TASK="EDIT_TASK";
+export const GET_TASK="GET_TASK";
+export const GET_TASKS="GET_TASKS";
+export const ADD_CURRENT_BUCKET="ADD_CURRENT_BUCKET";
+
+
+// BUCKET_ACTIONS
+export const GET_BUCKETS="GET_BUCKETS";

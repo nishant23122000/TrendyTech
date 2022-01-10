@@ -1,0 +1,40 @@
+.task_section{
+    width: 70%;
+    padding: 20px;
+   
+    .task_heading{
+        display:flex;
+        
+        justify-content: space-between;
+        div{
+            margin: auto 0;
+        }
+    }
+    .card_section{
+        width: 45%;
+        height: fit-content;
+        margin: 10px;
+        border: 1px solid grey;
+        box-shadow: 2px 2px 1px grey;
+        border-radius: 10px;
+    }
+    .tasks{
+        display: flex;
+        flex-wrap: wrap;
+        height: 80vh;
+        
+        overflow: scroll;
+    }
+   
+} 
+
+.dialog{
+    padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .task_section{
+        width: 100%;
+    }
+  }
+
